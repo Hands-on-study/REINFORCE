@@ -3,15 +3,25 @@
 conda create -n reinforce python==3.10
 git clone https://github.com/Hands-on-study/REINFORCE.git
 git checkout "change your branch name!!"
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ``` 
-REIN FORCE 
+REINFORCE 
 
 ![REINFORCE 알고리즘](Images/REINFORCE.png)
 
+1. state value & policy를 초기
+2. $\pi$를 이용해서 에피소드를 생성
+3. G(Return)에서 V(s) 뺄셈 → 해당 state가 좋은지 나쁜지를 value 값으로 확인
+4. $\phi$의 업데이트를 통해 V(s)가 G와 근사해지게끔 학습
+5. $\theta$의 업데이트를 통해 $\delta$가 + 인 경우 해당 action에 대한 prob를 높이고, 반대의 경우 prob를 낮추는 방향으로 학습(gradient ascent)
+   
 ## Quiz
 
-REINFOECE는 Policy Gradient의 대표적인 알고리즘이다.
+### Policy Gradient
+
+REINFORCE는 Policy Gradient 알고리즘의 한 종류입니다. Policy Gradient는 Policy 그 자체를 매개변수화하고, 
+**경사 상승법(gradient ascent)**을 이용해 누적 보상을 최대화하는 방향으로 정책 매개변수를 직접 업데이트하는 방법입니다. 
+가치 함수를 기반으로 하는 Q-Learning과 같은 방법들과 달리, 정책 경사법은 연속적인 행동 공간에서도 쉽게 적용할 수 있다는 장점이 있습니다.
 
 Q1. REINFORCE와 DQN의 차이점은 무엇인가?
 
