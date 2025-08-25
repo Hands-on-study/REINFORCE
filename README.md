@@ -43,3 +43,16 @@ REINFORCE 알고리즘은 에피소드가 **끝난 후**에 파라미터를 업�
 정답 : 에피소드 단위로 업데이트 하기 때문에 Return값의 분산이 커져 학습이 불안정하다.
 
 Q4. quiz_Cartpole-REINFORCE.py 코드를 실행시키시오.
+
+## git push
+```bash
+git checkout -b your-branch-name
+# 예: git checkout -b pan
+
+git add .
+git commit -m "message"
+# 예: git commit -m "Add solution by pan"
+
+git push origin your-branch-name
+# 예: git push origin pan
+```
