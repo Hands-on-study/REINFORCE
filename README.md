@@ -68,9 +68,11 @@ Q3의 문제를 해결하기 위해서 도입한 주요 개념은 무엇인가?
 아래 이미지와 같이 빈칸 처리 된 부분을 채워넣고, quiz_Cartpole-REINFORCE.py 코드를 실행시켜 Cartpole network를 최적화 하시오.
 
 quiz
+
 ![quiz](Images/quiz_code.png)
 
 answer
+
 ![answer](Images/answer_code.png)
 
 ## git push
