@@ -9,7 +9,7 @@ REIN FORCE
 
 ![image.png](attachment:a05c345a-f3c5-477b-8911-7102e31e76d3:image.png)
 
-문제
+## Quiz
 
 REINFOECE는 Policy Gradient의 대표적인 알고리즘이다.
 
