@@ -92,13 +92,12 @@ def train_reinforce_with_baseline(env, policy_net, value_net, policy_optimizer, 
         # 정책 손실
         policy_loss = []
         
-        # TODO 알고리즘 ㄴㄴ 코딩
-        # hint 두 파라미터의 length가 동일하다.
-        for log_prob, A_t in "함수 쓰셔야 됨"(log_probs, advantage):
+        for log_prob, A_t in zip(log_probs, advantage):
             policy_loss.append(-"" * A_t.detach()) #detach()는 gradient 전파를 막음
 
         # 가치 손실 (MSE)
-        value_loss = F.mse_loss(predicted_values, returns)
+        # TODO
+        value_loss = F.mse_loss("", "")
         
         # 옵티마이저를 통해 경사 하강 수행
         # 정책 신경망 업데이트

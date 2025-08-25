@@ -86,7 +86,7 @@ def train_reinforce_with_baseline(env, policy_net, value_net, policy_optimizer, 
         # 정책 손실
         policy_loss = []
         for log_prob, A_t in zip(log_probs, advantage):
-            policy_loss.append(-log_prob * A_t.detach()) #detach()는 gradient 전파를 막음
+            policy_loss.append(-log_prob * A_t.detach()) 
 
         # 가치 손실 (MSE)
         value_loss = F.mse_loss(predicted_values, returns)
