@@ -65,7 +65,7 @@ Q3의 문제를 해결하기 위해서 도입한 주요 개념은 무엇인가?
 
 ![cartpole](Images/cartpole.png)
 
-아래 이미지와 같이 빈칸 처리 된 부분을 채워넣고, quiz_Cartpole-REINFORCE.py 코드를 실행시켜 Cartpole network를 최적화 하시오.
+아래 이미지와 같이 빈칸 처리 된 부분 !!("")!! 을 채워넣고, quiz_Cartpole-REINFORCE.py 코드를 실행시켜 Cartpole network를 최적화 하시오.
 
 quiz
 
