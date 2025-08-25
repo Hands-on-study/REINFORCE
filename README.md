@@ -51,9 +51,27 @@ REINFORCE 알고리즘은 에피소드가 **끝난 후**에 파라미터를 업�
 
 ![Reward graph](Images/REINFORCE_train_graph.png)
 
-### Q4. 
+### Q4.
 
-quiz_Cartpole-REINFORCE.py 코드를 실행시키시오.
+Q3의 문제를 해결하기 위해서 도입한 주요 개념은 무엇인가?
+
+1. Experience Replay buffer
+2. value iteration
+3. Policy entropy
+4. Baseline
+5. Temporal Diffrence Error
+
+### Q5. 
+
+![cartpole](Images/cartpole.png)
+
+아래 이미지와 같이 빈칸 처리 된 부분을 채워넣고, quiz_Cartpole-REINFORCE.py 코드를 실행시켜 Cartpole network를 최적화 하시오.
+
+quiz
+![quiz](Images/quiz_code.png)
+
+answer
+![answer](Images/answer_code.png)
 
 ## git push
 ```bash
