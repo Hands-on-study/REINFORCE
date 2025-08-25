@@ -7,7 +7,7 @@ pip install -r requirements.txt
 ``` 
 REIN FORCE 
 
-![image.png](attachment:a05c345a-f3c5-477b-8911-7102e31e76d3:image.png)
+![image.png](images/REINFORCE.png)
 
 ## Quiz
 
@@ -36,7 +36,7 @@ $\pi_{\theta_1}$ ≠ $\pi_{\theta_2}$
 Q3. REINFORCE 알고리즘은 에피소드가 **끝난 후**에 파라미터를 업데이트한다.
 이로 인해 발생하는 주요 단점은 무엇인가?
 
-![image.png](attachment:a05c345a-f3c5-477b-8911-7102e31e76d3:image.png)
+![image.png](images/REINFORCE_graph.png)
 
 Q4. quiz_Cartpole-REINFORCE.py 코드를 실행시키시오.
 
