@@ -21,7 +21,6 @@ REINFORCE
 
 REINFORCE는 Policy Gradient 알고리즘의 한 종류입니다. Policy Gradient는 Policy 그 자체를 매개변수화하고, 
 **경사 상승법(gradient ascent)**을 이용해 누적 보상을 최대화하는 방향으로 정책 매개변수를 직접 업데이트하는 방법입니다. 
-가치 함수를 기반으로 하는 Q-Learning과 같은 방법들과 달리, 정책 경사법은 연속적인 행동 공간에서도 쉽게 적용할 수 있다는 장점이 있습니다.
 
 Q1. REINFORCE와 DQN의 차이점은 무엇인가?
 
